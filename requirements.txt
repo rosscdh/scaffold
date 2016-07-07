@@ -117,6 +117,7 @@ django-countries
 django-taggit
 html2text
 coverage
+django-versatileimagefield==1.5
 # PDF Rendering
 django-easy-pdf
 xhtml2pdf>=0.0.6

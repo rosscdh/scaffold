@@ -12,6 +12,7 @@ class ProductRoomForm(forms.ModelForm):
             'product',
             'room_type',
             'name',
+            'feature_image',
             'short_description',
             'description',
         ]

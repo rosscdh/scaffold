@@ -1,7 +1,7 @@
-from oscar.defaults import *
 from django.utils.translation import ugettext_lazy as _
 
 from oscar import get_core_apps, OSCAR_MAIN_TEMPLATE_DIR
+from oscar.defaults import *
 
 import os
 
@@ -43,6 +43,7 @@ PROJECT_APPS = [
 ]
 
 HELPER_APPS = [
+    'versatileimagefield',
     'django_extensions',
     # 'compressor',
     'widget_tweaks',
@@ -90,6 +91,20 @@ INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + HELPER_APPS + OSCAR_APPS  # + get_
 
 SITE_ID = 1
 
+#
+# Oscar settings
+#
+OSCAR_SHOP_NAME = 'ToSelf'
+OSCAR_SHOP_TAGLINE = 'Moderne Zuhause'
+OSCAR_ALLOW_ANON_REVIEWS = False
+OSCAR_MODERATE_REVIEWS = True
+OSCAR_EAGER_ALERTS = False
+
+OSCAR_HIDDEN_FEATURES = [
+    'reviews',
+    'wishlists',
+    'stock_alerts',
+]
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
@@ -215,3 +230,5 @@ except NameError:
         from local_settings import *
     except ImportError:
         print("Could not load local_settings")
+
+
