@@ -1,0 +1,34 @@
+{
+    "page": {
+        "summaries": [
+            {
+                "link": "/gardena-schnippschnapp-a317217.php",
+                "image": "//img.reuter.de/products/gar/191x191/gardena-schnippschnapp--gar-08704-30_1a.jpg",
+                "name": "GARDENA SchnippSchnapp",
+                "current_price": "10,07€",
+                "full_price": "15,99€*"
+            },
+            {
+                "link": "/gardena-comfort-buegelsaege-760-a305483.php",
+                "image": "//img.reuter.de/products/gar/191x191/gardena-comfort-buegelsaege-760--gar-08748-20_1a.jpg",
+                "name": "GARDENA Comfort Bügelsäge 760",
+                "current_price": "17,54€",
+                "full_price": "27,99€*"
+            },
+            {
+                "link": "/gardena-rosengreifschere-a317229.php",
+                "image": "//img.reuter.de/products/gar/191x191/gardena-rosengreifschere--gar-00359-20_1.jpg",
+                "name": "GARDENA Rosengreifschere",
+                "current_price": "8,13€",
+                "full_price": "12,69€*"
+            },
+            {
+                "link": "/gardena-combisystem-baumschere-a305433.php",
+                "image": "//img.reuter.de/products/gar/191x191/gardena-combisystem-baumschere--gar-00302-20_1a.jpg",
+                "name": "GARDENA combisystem-Baumschere",
+                "current_price": "34,65€",
+                "full_price": "54,99€*"
+            }
+        ]
+    }
+}

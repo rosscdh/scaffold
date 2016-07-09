@@ -1,0 +1,228 @@
+{
+    "page": {
+        "sections": [
+            {
+                "cat": "Bad",
+                "sub_cats": [
+                    {
+                        "sub_cat": "Badarmaturen"
+                    },
+                    {
+                        "sub_cat": "Badmöbel"
+                    },
+                    {
+                        "sub_cat": "Duschwannen"
+                    },
+                    {
+                        "sub_cat": "Duschrinnen & Badabläufe"
+                    },
+                    {
+                        "sub_cat": "Whirlpools"
+                    },
+                    {
+                        "sub_cat": "Badkeramik"
+                    },
+                    {
+                        "sub_cat": "Badaccessoires"
+                    },
+                    {
+                        "sub_cat": "Kosmetikspiegel"
+                    },
+                    {
+                        "sub_cat": "Spiegel"
+                    },
+                    {
+                        "sub_cat": "Spiegelschränke"
+                    },
+                    {
+                        "sub_cat": "Badewannen"
+                    },
+                    {
+                        "sub_cat": "Duschkabinen"
+                    },
+                    {
+                        "sub_cat": "Weitere Kategorien"
+                    },
+                    {
+                        "sub_cat": "Badarmaturen"
+                    },
+                    {
+                        "sub_cat": "Badmöbel"
+                    },
+                    {
+                        "sub_cat": "Duschwannen"
+                    },
+                    {
+                        "sub_cat": "Duschrinnen & Badabläufe"
+                    },
+                    {
+                        "sub_cat": "Whirlpools"
+                    },
+                    {
+                        "sub_cat": "Badkeramik"
+                    },
+                    {
+                        "sub_cat": "Badaccessoires"
+                    },
+                    {
+                        "sub_cat": "Kosmetikspiegel"
+                    },
+                    {
+                        "sub_cat": "Spiegel"
+                    },
+                    {
+                        "sub_cat": "Spiegelschränke"
+                    },
+                    {
+                        "sub_cat": "Badewannen"
+                    },
+                    {
+                        "sub_cat": "Duschkabinen"
+                    },
+                    {
+                        "sub_cat": "Weitere Kategorien"
+                    }
+                ]
+            },
+            {
+                "cat": "Küche",
+                "sub_cats": [
+                    {
+                        "sub_cat": "Küchenarmaturen"
+                    },
+                    {
+                        "sub_cat": "Küchenspülen"
+                    },
+                    {
+                        "sub_cat": "Essen & Trinken"
+                    },
+                    {
+                        "sub_cat": "Küchentextilien"
+                    },
+                    {
+                        "sub_cat": "Weitere Kategorien"
+                    }
+                ]
+            },
+            {
+                "cat": "Leuchten",
+                "sub_cats": [
+                    {
+                        "sub_cat": "Innenleuchten"
+                    },
+                    {
+                        "sub_cat": "Außenleuchten"
+                    },
+                    {
+                        "sub_cat": "LED Leuchten"
+                    },
+                    {
+                        "sub_cat": "Leuchtmittel"
+                    },
+                    {
+                        "sub_cat": "Zubehörteile"
+                    },
+                    {
+                        "sub_cat": "Magazin"
+                    }
+                ]
+            },
+            {
+                "cat": "Wohnen",
+                "sub_cats": [
+                    {
+                        "sub_cat": "Tische"
+                    },
+                    {
+                        "sub_cat": "Sofas"
+                    },
+                    {
+                        "sub_cat": "Flur & Diele"
+                    },
+                    {
+                        "sub_cat": "Stühle"
+                    },
+                    {
+                        "sub_cat": "Sessel"
+                    },
+                    {
+                        "sub_cat": "Kommoden & Sideboards"
+                    },
+                    {
+                        "sub_cat": "Regale"
+                    },
+                    {
+                        "sub_cat": "Ordnung & Accessoires"
+                    },
+                    {
+                        "sub_cat": "Top Marken"
+                    },
+                    {
+                        "sub_cat": "Hocker & Bänke"
+                    },
+                    {
+                        "sub_cat": "Heimtextilien"
+                    },
+                    {
+                        "sub_cat": "Weitere Kategorien"
+                    }
+                ]
+            },
+            {
+                "cat": "Heizung",
+                "sub_cats": [
+                    {
+                        "sub_cat": "Heizkörper"
+                    },
+                    {
+                        "sub_cat": "Warmwassergeräte"
+                    },
+                    {
+                        "sub_cat": "Weitere Kategorien"
+                    }
+                ]
+            },
+            {
+                "cat": "Garten",
+                "sub_cats": [
+                    {
+                        "sub_cat": "Gartenmöbel"
+                    },
+                    {
+                        "sub_cat": "Bewässerung"
+                    },
+                    {
+                        "sub_cat": "Gartenaccessoires"
+                    },
+                    {
+                        "sub_cat": "Baum- & Strauchpflege"
+                    },
+                    {
+                        "sub_cat": "Sonnenschutz"
+                    },
+                    {
+                        "sub_cat": "Gartengeräte"
+                    },
+                    {
+                        "sub_cat": "Weitere Kategorien"
+                    },
+                    {
+                        "sub_cat": "Rasenpflege"
+                    },
+                    {
+                        "sub_cat": "Blumenkübel"
+                    },
+                    {
+                        "sub_cat": "Hängematten"
+                    },
+                    {
+                        "sub_cat": "Gartenduschen"
+                    },
+                    {
+                        "sub_cat": "Grills & Grillzubehör"
+                    }
+                ]
+            }
+        ]
+    }
+}

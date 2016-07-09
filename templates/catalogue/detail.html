@@ -216,8 +216,77 @@
     {% recently_viewed_products current_product=product %}
 
 </article><!-- End of product page -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Package Items</h4>
+      </div>
+      <div class="modal-body">
+        <span id="contents"></span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% endblock content %}
 
 {% block extrascripts %}
     {{ block.super }}
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script>
+    $( document ).ready(function() {
+        var source   = $("#packages-list").html();
+        var packages_list_template = Handlebars.compile(source);
+
+        $('#myModal').on('show.bs.modal', function (e) {
+            var room_pk = $(e.relatedTarget).data('room_pk');
+            var pk = $(e.relatedTarget).data('pk');
+
+            $.ajax('/api/v1/rooms/'+ room_pk +'/packages/'+pk+'/', {
+              success: function(data) {
+                console.log(data)
+                var html = packages_list_template(data);
+                $('#myModal').find('#contents').html(html);
+              },
+              error: function() {
+                 $('#myModal').find('#contents').html({'error': 'An error occurred'});
+              }
+            });
+
+        });
+    });
+    </script>
+    {% verbatim %}
+    <script id="packages-list" type="text/x-handlebars-template">
+      <div class="entry">
+        <h3><small><em>room type:</em> {{ room_type }}</small><br/>{{ partner.name }} - {{ amount.amount }} {{ amount.currency }}</h3>
+        {{ short_description }}
+
+        <button class="btn btn-success">Choose this package - {{ amount.amount }} {{ amount.currency }}</button>
+
+        <div class="body col-md-12">
+            <ul class="list list-unstyled">
+            {{#each products}}
+                <li class="cold-md-12">
+                    <div class="col-md-7">
+                        <b>{{ title }}</b>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="{{ images.0.original}}" class="img img-responsive" />
+                    </div>
+                </li>
+            {{/each}}
+            </ul>
+        </div>
+      </div>
+    </script>
+    {% endverbatim %}
 {% endblock %}

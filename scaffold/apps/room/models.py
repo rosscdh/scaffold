@@ -38,8 +38,17 @@ class Room(models.Model):
 
 
 class RoomPackage(models.Model):
+    ROOM_TYPE_CHOICES = ROOM_TYPES
+
+    room_type = models.CharField(max_length=64,
+                                 choices=ROOM_TYPE_CHOICES.get_choices(),
+                                 default=ROOM_TYPE_CHOICES.std_room)
+
     amount = MoneyField(max_digits=10, decimal_places=2, default_currency='EUR')
     partner = models.ForeignKey('partner.Partner', blank=True, null=True)
-    stock_records = models.ManyToManyField('partner.StockRecord', blank=True)
+    products = models.ManyToManyField('catalogue.Product', blank=True)
     short_description = models.CharField(blank=True, max_length=255)
     description = models.TextField(blank=True)
+
+    def __unicode__(self):
+        return '%s (%s)' % (self.amount, self.ROOM_TYPE_CHOICES.get_desc_by_value(self.room_type))

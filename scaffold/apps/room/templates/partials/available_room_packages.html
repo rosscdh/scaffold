@@ -1,0 +1,19 @@
+{% load i18n %}
+<div class="row packages">
+    <div class="col-md-3">
+        <button class="btn btn-default" type="button">
+        <span class="badge">{{ available }}</span><br/><b>{% trans 'Packages' %}</b>
+        </button>
+    </div>
+    <div class="col-md-9">
+        <ol class=" ">
+            {% for package in packages_list %}
+            <li data-toggle="modal" data-target="#myModal" data-room_pk="{{ room.pk }}" data-pk="{{ package.pk }}" style="cursor:pointer;">
+                <b><em>{{ package.amount }}</em></b><br/>
+                {{ package.partner.name }}<br/>
+                <img src="https://img0.reuter.de/layout/profishop.png" class="img img-responsive" />
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+</div>

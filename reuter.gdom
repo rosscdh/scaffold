@@ -1,0 +1,11 @@
+query ($page: String) {
+  page(url:$page) {
+    summaries: query(selector:".productWrapper") {
+        link: attr(selector:"a.sl_link", name:"href")
+        image: attr(selector:"img.sl_image", name:"src")
+        name: text(selector:".sl_name")
+        current_price: text(selector:".sl_current_price")
+        full_price: text(selector:".sl_price_number")
+    }
+  }
+}

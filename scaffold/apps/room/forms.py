@@ -15,6 +15,7 @@ class ProductRoomForm(forms.ModelForm):
             'feature_image',
             'short_description',
             'description',
+            'description',
         ]
 
 

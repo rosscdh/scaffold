@@ -43,6 +43,11 @@ PROJECT_APPS = [
 ]
 
 HELPER_APPS = [
+    'corsheaders',
+    'rest_framework',
+    'rest_framework.authtoken',
+    'rest_framework_swagger',
+
     'versatileimagefield',
     'django_extensions',
     # 'compressor',
@@ -229,6 +234,7 @@ except NameError:
     try:
         from local_settings import *
     except ImportError:
-        print("Could not load local_settings")
+        #print("Could not load local_settings")
+        pass
 
 

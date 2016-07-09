@@ -1,0 +1,34 @@
+{
+    "page": {
+        "summaries": [
+            {
+                "link": "/gardena-comfort-grasschere-drehbar-a317221.php",
+                "image": "//img.reuter.de/products/gar/191x191/gardena-comfort-grasschere-drehbar--gar-08735-30_1a.jpg",
+                "name": "GARDENA Comfort Grasschere, drehbar",
+                "current_price": "20,99€",
+                "full_price": "35,99€*"
+            },
+            {
+                "link": "/gardena-classic-grasschere-drehbar-a305861.php",
+                "image": "//img.reuter.de/products/gar/191x191/gardena-classic-grasschere-drehbar--gar-08731-30_1a.jpg",
+                "name": "GARDENA Classic Grasschere, drehbar",
+                "current_price": "12,70€",
+                "full_price": "17,49€*"
+            },
+            {
+                "link": "/gardena-comfort-grasschere-a317219.php",
+                "image": "//img.reuter.de/products/gar/191x191/gardena-comfort-grasschere--gar-08733-30_1a.jpg",
+                "name": "GARDENA Comfort Grasschere",
+                "current_price": "12,61€",
+                "full_price": "19,99€*"
+            },
+            {
+                "link": "/gardena-elektro-spindelmaeher-380-ec-a305833.php",
+                "image": "//img.reuter.de/products/gar/191x191/gardena-elektro-spindelmaeher-380-ec--gar-04028-20_1a.jpg",
+                "name": "GARDENA Elektro-Spindelmäher 380 EC",
+                "current_price": "263,50€",
+                "full_price": "319,99€*"
+            }
+        ]
+    }
+}

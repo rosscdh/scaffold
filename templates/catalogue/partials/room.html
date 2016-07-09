@@ -1,22 +1,14 @@
-
+{% load room_tags %}
 <div class="col-md-12">
     <h3><small>{{ room.display_type }}</small><br/>{{ room.name }}</h3>
     {{ room.feature_image.120x90.url }}
     <div class="col-md-2"><a href=""><img src="{{ room.feature_image.thumbnail.320x200.url }}" class="img img-responsive" /></a></div>
-    <div class="col-md-6">
+    <div class="col-md-4">
         <div class="row content">
             {{ room.short_description }}
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="row packages">
-            <div class="col-md-6">
-                <span class="badge">12</span><br/><b>Accessory Packages</b>
-            </div>
-            <div class="col-md-6">
-                <b><em>Default package</em></b><br/>
-                <img src="https://img0.reuter.de/layout/profishop.png" class="col-sm-8 img img-responsive"/>
-            </div>
-        </div>
+    <div class="col-md-6">
+        {% available_room_packages product room %}
     </div>
 </div>

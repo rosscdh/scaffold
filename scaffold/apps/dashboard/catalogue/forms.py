@@ -12,10 +12,8 @@ class ProductForm(OscarProductForm):
             'description',
             'is_discountable',
             'structure',
-            'data',
         ]
 
         widgets = {
             'structure': forms.HiddenInput(),
-            'data': forms.Textarea(),
         }
